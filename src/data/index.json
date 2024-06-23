@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "./img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "2",
+      "src": "./img/tag-1.png",
+      "title": "Back-End",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "3",
+      "src": "./img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    },
+    {
+      "id": "4",
+      "src": "./img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/CareePersuit.png",
+      "title": "CAREER_PERSUIT",
+      "description": "Career_PERSUIT is an online job application portal connecting job seekers with employers.Companies can post job opportunities, and job seekers can apply with their details, ensuring a seamless experience for both.",
+      "link": "https://github.com/SKANDABH/OJB"
+    },
+    {
+      "id": "2",
+      "src": "./img/FinancialResolve.png",
+      "title": "FINFIND",
+      "description": " FINFIND basically to simply banking and finance related applications to be able to serve people from various backgrounds who might not have the same knowledge about the applications as others",
+      "link": "https://github.com/SKANDABH/ENIGMA"
+    },
+    {
+      "id": "3",
+      "src": "./img/LivGuard.png",
+      "title": "VOLTSUPPLY",
+      "description": "VoltSupply is a website showcasing high-quality batteries for various uses. It features a selection for commercial and personal needs, demonstrating our commitment to reliable service and prompt delivery. This site is for project demonstration only.",
+      "link": "https://github.com/SKANDABH/Liv_Gaurd"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}

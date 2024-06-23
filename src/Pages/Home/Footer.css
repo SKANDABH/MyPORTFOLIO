@@ -1,0 +1,81 @@
+/* Assuming you have CSS classes defined for the footer styles */
+
+.footer--container {
+    background-color: #f8f9fa; /* Background color for the footer */
+    padding: 50px 20px; /* Padding around the footer content */
+  }
+  
+  .footer--link--container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px; /* Adjust max-width as per your design */
+    margin: 0 auto; /* Center align the footer content */
+  }
+  
+  .footer--items ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer--items ul li {
+    margin-right: 20px; /* Adjust spacing between footer links */
+  }
+  
+  .footer--social--icon ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .footer--social--icon ul li {
+    margin-right: 10px; /* Adjust spacing between social icons */
+  }
+  
+  .footer--social--icon a {
+    color: black; /* Color for social icons */
+  }
+  
+  .divider {
+    border-top: 1px solid #ccc; /* Divider line styles */
+    margin: 20px 0; /* Margin above and below the divider */
+  }
+  
+  .footer--content--container {
+    max-width: 800px; /* Adjust max-width as per your design */
+    margin: 0 auto; /* Center align the footer content */
+  }
+  
+  .footer--content--container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer--content--container ul li {
+    margin-right: 20px; /* Adjust spacing between footer content links */
+  }
+  
+  /* Responsive adjustments */
+  @media screen and (max-width: 768px) {
+    .footer--link--container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      text-align: center; /* Center align items */
+    }
+  
+    .footer--items ul li,
+    .footer--social--icon ul li {
+      margin-bottom: 10px; /* Adjust spacing for smaller screens */
+      margin-right: 0; /* Remove right margin */
+    }
+  
+    .footer--content--container ul li {
+      margin-bottom: 10px; /* Adjust spacing for smaller screens */
+      margin-right: 0; /* Remove right margin */
+    }
+  }
+  

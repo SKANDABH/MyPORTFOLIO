@@ -1,0 +1,83 @@
+.skills--section {
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.skills--content {
+  margin-bottom: 20px;
+}
+
+.skills--description {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.skills--list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills--icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.icon {
+  font-size: 4rem; /* Adjust the size of the icons */
+  color: #007bff; /* Adjust icon color */
+}
+
+.icon-label {
+  margin-top: 10px;
+  font-size: 1rem; /* Adjust label font size */
+}
+
+/* Additional styles for specific icons */
+.html {
+  color: #e54d26; /* Custom color for HTML5 icon */
+}
+
+.css {
+  color: #264de4; /* Custom color for CSS3 icon */
+}
+
+.js {
+  color: #f0db4f; /* Custom color for JavaScript icon */
+}
+
+.nodejs {
+  color: #68a063; /* Custom color for Node.js icon */
+}
+
+.react {
+  color: #61dbfb; /* Custom color for React.js icon */
+}
+
+.python {
+  color: #306998; /* Custom color for Python icon */
+}
+
+.git {
+  color: #f34f29; /* Custom color for Git icon */
+}
+
+.database {
+  color: #00796b; /* Custom color for Database icon */
+}
+
+.server {
+  color: #4caf50; /* Custom color for Server icon */
+}
+
+.email {
+  color: #ff9800; /* Custom color for Email icon */
+}
+
+h2 {
+  text-align: center;
+}
+
